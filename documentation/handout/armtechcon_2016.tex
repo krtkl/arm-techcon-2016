@@ -1,0 +1,57 @@
+
+%
+% Author and title information
+%
+\title{from the I/O pin to the internet}
+\author{krtkl inc.}
+
+\makeatletter
+
+\input{../Common/Style/tufte-handout-preamble.tex}
+\setcounter{secnumdepth}{2}
+
+
+\begin{document}
+
+%\renewcommand{\maketitle}{
+  	\newpage
+  	\thispagestyle{plain}
+  	\begin{fullwidth}
+      		\includegraphics{./images/Snickerdoodle_Logo.pdf}
+		\break
+		\break
+		\break
+ 		\includegraphics[width=0.5\textwidth]{images/armtechcon.png}
+		\hfill
+		\includegraphics[width=0.3\textwidth]{images/krtkl.pdf}
+    	\end{fullwidth}
+  
+	\begingroup
+		%\setlength{\parindent}{0em}
+		%\setlength{\parskip}{2em}
+		%\setlength{\baselineskip}{4em}
+		\setlength{\parindent}{0em}
+		\setlength{\baselineskip}{2em}
+		\setlength{\parskip}{2em}
+		\begingroup
+      			\par{\LARGE\allcaps{\@title}}
+  	 		   	\ifthenelse{\equal{\@author}{}}{}{\par{\Large\allcaps{\@author}}}
+			    	\ifthenelse{\equal{\@date}{}}{}{\par{\Large\allcaps{October 26, 2016}}}
+    		\endgroup
+  		\par
+	\endgroup
+	\vspace{8em}
+	\begin{fullwidth}
+		\centering
+		\includegraphics[width=45em]{images/cover_art.png}
+	\end{fullwidth}
+%}
+
+\newpage
+
+	\input{Introduction.tex}
+	\input{hardware.tex}
+	\input{software.tex}
+		
+\end{document}
+

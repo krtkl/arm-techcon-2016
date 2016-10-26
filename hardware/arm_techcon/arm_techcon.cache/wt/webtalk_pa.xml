@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Oct 26 13:26:11 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="f6b1b0bc8eb44f799fbf73ad51ac5278" type="ProjectID"/>
+<property name="ProjectIteration" value="59" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="1" type="JavaHandler"/>
+<property name="CloseProject" value="5" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="25" type="JavaHandler"/>
+<property name="EditDelete" value="4" type="JavaHandler"/>
+<property name="ExportRSBTclScript" value="1" type="JavaHandler"/>
+<property name="GenerateOutputForBDFile" value="2" type="JavaHandler"/>
+<property name="NewExportHardware" value="11" type="JavaHandler"/>
+<property name="NewLaunchHardware" value="13" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenAddressEditor" value="1" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="23" type="JavaHandler"/>
+<property name="OpenProject" value="5" type="JavaHandler"/>
+<property name="ProjectSummary" value="1" type="JavaHandler"/>
+<property name="RegenerateRSBLayout" value="1" type="JavaHandler"/>
+<property name="ReportIPStatus" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="5" type="JavaHandler"/>
+<property name="RunImplementation" value="7" type="JavaHandler"/>
+<property name="RunSynthesis" value="3" type="JavaHandler"/>
+<property name="SaveProjectAs" value="1" type="JavaHandler"/>
+<property name="SaveRSBDesign" value="4" type="JavaHandler"/>
+<property name="UnmapAddressSegment" value="1" type="JavaHandler"/>
+<property name="UpgradeIP" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="6" type="JavaHandler"/>
+<property name="WriteCfgMemFile" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, axi_gpio_0 ; S_AXI ; Reg ; 0x4120_0000 ; 64K ; 0x4120_FFFF, 2, 0x4120_0000, 3, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADDRESSEDITOR_WINDOW, Address Editor" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EXPORT_HARDWARE, Export Hardware..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, Launch SDK" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_NEW_PROJECT, New Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_PROJECT_SUMMARY, project_summary" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, snickerdoodle_constraints.xdc], 13, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, snickerdoodle_constraints.xdc], 13, false, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, snickerdoodle_constraints.xdc], 5, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, snickerdoodle_constraints.xdc], 5, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 3, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, base_block_design_wrapper (base_block_design_wrapper.v" value="10" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, IP Integrator, Open Block Design], 7, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Implementation, Open Implemented Design], 22, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, C:/arm_techcon/arm_techcon.xpr, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="5" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="12" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_WINDOW, Window" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, Include bitstream, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_ADDRESS_EDITOR, Address Editor" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_SYSTEM, System" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.StaleRunDialog_YES, Yes" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, IP Documentation" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, Expand/Collapse" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderView_ORIENTATION, Orientation" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemTreeView_SYSTEM_TREE, [base_block_design, axi_timer_0], 9" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="4" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 1, 142" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 126, 398" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 134, 439" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 136, 341" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 187, 259" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 223, 158" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 224, 193" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 243, 145" value="2" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 26, 142" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 265, 131" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 3, 147" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 3, 192" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 32, 229" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 362, 129" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 362, 199" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 370, 159" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 453, 265" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 455, 336" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 458, 395" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 459, 184" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 464, 251" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 468, 162" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 47, 236" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 470, 392" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 472, 200" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 62, 320" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 63, 385" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 65, 147" value="1" type="GuiResourceData"/>
+<property name="snickerdoodle_constraints.xdc, 71, 147" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="63" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="59" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

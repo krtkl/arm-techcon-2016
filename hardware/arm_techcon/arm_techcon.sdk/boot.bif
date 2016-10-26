@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\arm_techcon\arm_techcon.sdk\fsbl\Debug\fsbl.elf
+	C:\arm_techcon\arm_techcon.sdk\base_block_design_wrapper_hw_platform_0\base_block_design_wrapper.bit
+	C:\arm_techcon\arm_techcon.sdk\u-boot.elf
+}
